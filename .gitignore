@@ -1,0 +1,24 @@
+# 虚拟环境
+dl/
+llm_env/
+
+# Jupyter笔记本检查点
+.ipynb_checkpoints/
+
+# 模型训练输出
+outputs/
+results/
+models/
+
+# Python缓存文件
+__pycache__/
+*.pyc
+*.pyo
+
+# 日志文件
+logs/
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db

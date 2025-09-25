@@ -1,0 +1,18 @@
+# 环境配置
+name: dl
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.5.1
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - transformers
+  - datasets
+  - jupyter
+  - fastapi
+  - uvicorn
